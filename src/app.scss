@@ -1,0 +1,75 @@
+@import "~taro-ui/dist/style/index.scss";
+body .at-card__content-info .licon-blue {
+  background-color: rgb(41, 119, 119);
+  margin: 0 0.2rem;
+  border-color: rgb(41, 119, 119);
+}
+#app {
+  position: relative;
+}
+.at-button {
+  position: absolute;
+  right: 0;
+  margin: 0.2rem;
+  left: 0;
+  bottom: 0;
+}
+.doc-header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 1.28rem;
+  background-color: #f8f8f8;
+  height: 3.84rem;
+}
+.doc-header__title {
+  position: relative;
+  height: 1.92rem;
+  color: #333;
+  font-size: 0.85333rem;
+  font-weight: 700;
+}
+.doc-header__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: inline-block;
+  width: 2.56rem;
+  height: 0.05rem;
+  border-radius: 0.025rem;
+  background-color: #6190e8;
+}
+
+.doc-body .panel {
+  margin: 0.68267rem 0 1.19467rem;
+}
+.doc-body {
+  height: calc(100vh - 9rem);
+  overflow: auto;
+  background: #fff;
+  margin-bottom: 2.2rem;
+}
+.doc-body .panel__title {
+  position: relative;
+  margin-bottom: 1.06667rem;
+  padding-left: 1.06667rem;
+  color: #6a6a77;
+  font-size: 0.68267rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.doc-body .panel__title::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0.512rem;
+  top: 50%;
+  margin-top: -0.42667rem;
+  width: 0.1rem;
+  height: 0.85333rem;
+  background-color: #6190e8;
+  box-shadow: 0 0.14933rem 0.256rem 0 rgba(97, 144, 232, 0.2);
+  border-radius: 0.05rem;
+}
